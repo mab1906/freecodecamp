@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<body>
+<style>
+  body {
+   background-color: lightgray;
+  }
+  h1 { 
+   padding: center;
+   margin-top: 30px;
+   }
+  h2 { 
+   text-align: center;
+   }
+  h3 { 
+   text-align: center;
+   color: red;
+   }
+  #header-img {
+    max-width: 10%;
+  }
+  #header {
+   display: flex;
+   background-color: gray;
+  }
+  li {
+  list-style: none;
+  }
+  #nav-bar {
+    display: flex;
+    margin-top: 25px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+  }
+  ul{
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #img-div {
+     text-align: center;
+  }
+  #img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+  }
+  #projects {
+    display: flex;
+    justify-content: center;
+  }
+  #services {
+    background-color: white;
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  #services-div {
+    display: flex;
+    justify-content: center;
+  }
+  #tools-div {
+    display: flex;
+    justify-content: center;
+  }
+  #tools {
+    display: flex;
+    width: 40vw;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #email-div {
+    display: flex;
+    justify-content: center;
+  }
+  p {
+    font-size: 18px;
+  }
+  @media (min-height: 8000px) { 
+     p {
+       font-size: 10px;
+     }
+  }
+  footer {
+   height: 8vh;
+   text-align: center;
+   background-color: gray;
+   display: flex;
+   justify-content: center;
+  }
+</style>
+<header id="header">
+<title>
+  LeDD Landing Page
+</title>
+<image id="header-img" src="https://www.freepnglogos.com/uploads/logo-3d-png/abstract-logo-vector-3d-logo-brands-27.png" alt="LeDD">
+<h1>LeDD</h1>
+<nav id="nav-bar" >
+  <ul>
+    <li><a class="nav-link" href="#services">Services</a></li>
+    <li><a class="nav-link" href="#projects">Projects</a></li>
+    <li><a class="nav-link" href="#tools">Tools</a></li>
+  </ul>
+</nav>
+</header>
+<main>
+<h2>LeDD Software</h2>
+<h2> Experience, professional & high-quality Web Development Services</h2>
+<div id="img-div">
+<img id="img" src="https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.pngmart.com%2Ffiles%2F7%2FWeb-Design-PNG-Clipart.png&f=1&nofb=1" alt="Development web services">
+</div>
+<br>
+<div id="email-div">
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+<input name="email" id="email" type="email" placeholder="Enter your email address here" required/>
+<input id="submit" type="submit" value="Submit"/>
+</form>
+</div>
+<div id="services-div">
+<section id="services">
+<h3>Services</h3> 
+<h4>Websites development</h4>
+<p>We trust on modern and most worthy technologies to make web projects. We craft a creative website that represents your company well and grows your business.</p>
+<br>
+<h4>Webs applications</h4>
+<p>Our development team takes the detail of each of our clients’ needs and build influential web applications with scalable features. </p>
+<br>
+<h4>Mobile applications</h4>
+<p>Build powerful custom mobile apps for iOS & Android using our intuitive and easy to use mobile app builder. </p>
+<h4>Graphic design</h4>
+<p>We have extensive experience in graphical user interface design. We design to define business success.</p>
+</section>
+</div>
+<br>
+<section id="projects">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HZWJgHjWEFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<br>
+<div id="tools-div">
+<section id="tools">
+<h3>Tools: </h3> 
+<h4>JavaScript</h4>
+<h4>Node</h4>
+<h4>HTML5/CSS</h4>
+<h4>Ruby</h4>
+<h4>Rails</h4>
+<h4>MongoDB</h4>
+</section>
+</div>
+</main>
+<br>
+<footer>
+  <p>LeDD Software. 2020</p>
+</footer>
+</body>
+</html>
+
